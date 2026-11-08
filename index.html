@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shaik Rehaman Shareef | AI & Computer Science Portfolio</title>
+  <meta name="description" content="Personal Portfolio of Shaik Rehaman Shareef - B.Tech CSE (Artificial Intelligence) Student at School of Computational Intelligence.">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="header" id="header">
+    <div class="nav-container">
+      <a href="#home" class="logo">
+        <span class="logo-badge">&lt;SR&gt;</span>
+        <span class="logo-text">Shaik Rehaman</span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active"><i class="fa-solid fa-house"></i> Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link"><i class="fa-solid fa-user"></i> About Me</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link"><i class="fa-solid fa-laptop-code"></i> Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link"><i class="fa-solid fa-folder-tree"></i> Projects</a></li>
+          <li class="nav-item"><a href="#achievements" class="nav-link"><i class="fa-solid fa-trophy"></i> Achievements</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link"><i class="fa-solid fa-paper-plane"></i> Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" title="Toggle Light/Dark Theme" aria-label="Toggle Theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Open Mobile Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- 1. HOME SECTION -->
+    <section class="section home-section" id="home">
+      <div class="container home-container">
+        <div class="home-content">
+          <div class="status-pill">
+            <span class="status-dot"></span> Available for AI & Tech Projects
+          </div>
+          <h1 class="home-title">
+            Hi, I'm <span class="gradient-text">Shaik Rehaman Shareef</span>
+          </h1>
+          <div class="typewriter-container">
+            <span class="typewriter-prefix">I am an </span>
+            <span class="typewriter-text" id="typewriter"></span>
+            <span class="cursor">|</span>
+          </div>
+          <p class="home-description">
+            Passionate first-year undergraduate engineer exploring intelligent systems, deep learning, web technologies, and modern algorithmic problem-solving. Dedicated to building innovative, human-centric software solutions.
+          </p>
+          <div class="home-buttons">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fa-solid fa-rocket"></i> Explore Projects
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <i class="fa-solid fa-envelope"></i> Get In Touch
+            </a>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/shaikrehamanshareef" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com/in/shaikrehamanshareef" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:shaikrehamanshareef2008@gmail.com" aria-label="Email"><i class="fa-solid fa-at"></i></a>
+          </div>
+        </div>
+
+        <div class="home-visual">
+          <!-- Right side kept empty as requested -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. ABOUT ME SECTION -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-user"></i> Introduction</span>
+          <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+          <p class="section-subtitle">Get to know my academic background, technical curiosities, and future roadmap</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Educational Background -->
+          <div class="glass-card education-card">
+            <div class="card-header-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <h3 class="card-title">Educational Background</h3>
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <span class="timeline-date">2026 – Present</span>
+                <h4 class="timeline-title">B.Tech in Computer Science & Engineering (AI)</h4>
+                <p class="timeline-institute">School of Computational Intelligence, JOY University</p>
+                <p class="timeline-desc">Specializing in Artificial Intelligence, Python Programming, Modern Web Development, and Mathematical Computing.</p>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <span class="timeline-date">2024 – 2026</span>
+                <h4 class="timeline-title">Higher Secondary Certificate (10+2 / Intermediate)</h4>
+                <p class="timeline-institute">Narayana Junior College, Tirupati</p>
+                <p class="timeline-desc">Completed Board examination with <strong>77% Aggregate</strong> with Mathematics, Physics, and Chemistry core focus.</p>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <span class="timeline-date">2024</span>
+                <h4 class="timeline-title">Secondary School Certificate (Class X)</h4>
+                <p class="timeline-institute">Narayana EM High School, Tirupati</p>
+                <p class="timeline-desc">Passed with <strong>82% Distinction</strong>, developing an early foundation in computer fundamentals.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interests & Aspirations -->
+          <div class="glass-card interests-card">
+            <div class="card-header-icon"><i class="fa-solid fa-compass"></i></div>
+            <h3 class="card-title">Interests & Career Aspirations</h3>
+
+            <div class="interests-group">
+              <h4><i class="fa-solid fa-fire"></i> Technical Passions</h4>
+              <div class="interest-tags">
+                <span class="interest-tag"><i class="fa-solid fa-brain"></i> Artificial Intelligence & Neural Nets</span>
+                <span class="interest-tag"><i class="fa-brands fa-python"></i> Python Software Architecture</span>
+                <span class="interest-tag"><i class="fa-solid fa-code"></i> Full-Stack Web Development</span>
+                <span class="interest-tag"><i class="fa-solid fa-gamepad"></i> 2D Canvas Game Development</span>
+                <span class="interest-tag"><i class="fa-solid fa-database"></i> Intelligent Data Systems</span>
+              </div>
+            </div>
+
+            <div class="aspirations-group">
+              <h4><i class="fa-solid fa-bullseye"></i> Learning Goals & Future Aspirations</h4>
+              <p class="aspiration-text">
+                My primary mission is to master modern Machine Learning models, Computer Vision, and Generative AI paradigms to engineer automated, ethical tools that solve high-impact community problems.
+              </p>
+              <ul class="aspiration-list">
+                <li><i class="fa-solid fa-check-circle"></i> Master Python AI frameworks (PyTorch, TensorFlow, Scikit-Learn).</li>
+                <li><i class="fa-solid fa-check-circle"></i> Develop scalable cloud and edge AI software architectures.</li>
+                <li><i class="fa-solid fa-check-circle"></i> Aspire to work as a leading Machine Learning Engineer & AI Solutions Architect.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. SKILLS SECTION -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-laptop-code"></i> Competencies</span>
+          <h2 class="section-title">My Technical <span class="gradient-text">Skills</span></h2>
+          <p class="section-subtitle">Proficiencies developed through academic curricula, hands-on programming, and AI projects</p>
+        </div>
+
+        <div class="skills-grid skills-grid-two">
+          <!-- Python Skill Card -->
+          <div class="glass-card skill-category">
+            <div class="category-header">
+              <i class="fa-brands fa-python category-icon"></i>
+              <h3>Python</h3>
+            </div>
+            <p class="skill-category-desc">Core programming, problem solving, data types, string indexing & slicing, conditional logic, loops, and modular functions.</p>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-info"><span>Python Proficiency</span><span>90%</span></div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- HTML and CSS Skill Card -->
+          <div class="glass-card skill-category">
+            <div class="category-header">
+              <i class="fa-brands fa-html5 category-icon"></i>
+              <h3>HTML and CSS</h3>
+            </div>
+            <p class="skill-category-desc">Semantic HTML5 architecture, modern CSS3 styling, Flexbox & CSS Grid responsive layouts, and viewport design.</p>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-info"><span>HTML & CSS Proficiency</span><span>92%</span></div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 92%"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. PROJECTS SECTION -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-folder-tree"></i> Showcase</span>
+          <h2 class="section-title">Featured <span class="gradient-text">Project</span></h2>
+          <p class="section-subtitle">Real-world personal interactive 2D game project demonstrating frontend engineering and Web Audio synthesis</p>
+        </div>
+
+        <div class="projects-grid projects-grid-single">
+          <!-- Project: Bal Ganesh Game -->
+          <div class="glass-card project-card project-card-featured">
+            <div class="project-header">
+              <div class="project-badge"><i class="fa-solid fa-star"></i> Featured Personal Project</div>
+              <div class="project-links">
+                <a href="#projects" class="project-link-btn" title="View Details"><i class="fa-solid fa-eye"></i></a>
+                <a href="https://github.com/shaikrehamanshareef" target="_blank" rel="noopener" class="project-link-btn" title="GitHub Code"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-icon-box">
+                <i class="fa-solid fa-gamepad"></i>
+              </div>
+              <h3 class="project-title">Bal Ganesh: Modak Catcher & Mooshak's Maya Leela</h3>
+              <p class="project-description">
+                A rich 2D web arcade and platforming game engineered with HTML5 Canvas, modern ES6 JavaScript, and the Web Audio API. Consists of a dual-phase experience: <em>Modak Catcher</em> with physics-based falling drops and combo multipliers, transitioning into <em>Mooshak's Maya Leela</em>—a 50-level obstacle platformer featuring crumbling tiles, moving lifts, and procedural browser-synthesized audio without external sound assets.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">HTML5 Canvas</span>
+                <span class="tech-tag">JavaScript ES6</span>
+                <span class="tech-tag">Web Audio API</span>
+                <span class="tech-tag">CSS3 Animations</span>
+                <span class="tech-tag">Game Loop 60FPS</span>
+                <span class="tech-tag">50 Custom Levels</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <span class="project-status"><i class="fa-solid fa-circle-check"></i> Completed & Fully Functional</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. ACHIEVEMENTS SECTION -->
+    <section class="section achievements-section" id="achievements">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-trophy"></i> Milestones</span>
+          <h2 class="section-title">Certifications & <span class="gradient-text">Achievements</span></h2>
+          <p class="section-subtitle">Academic honors, technical credentials, and active participation in computational clubs</p>
+        </div>
+
+        <div class="achievements-grid">
+          <!-- Certifications Card -->
+          <div class="glass-card achievement-card">
+            <div class="card-top">
+              <div class="achievement-icon icon-gold"><i class="fa-solid fa-certificate"></i></div>
+              <h3>Certifications</h3>
+            </div>
+            <ul class="achievement-list">
+              <li>
+                <div class="achieve-title">Python Programming & Fundamentals Certification</div>
+                <div class="achieve-issuer">JOY University / Computational Intelligence Coursework • 2026</div>
+                <p>Comprehensive credential covering variables, control structures, functions, and string slicing operations.</p>
+              </li>
+              <li>
+                <div class="achieve-title">Web Application Development – I Certification</div>
+                <div class="achieve-issuer">School of Computational Intelligence • 2026</div>
+                <p>Validated mastery of semantic HTML5, modern CSS styling, viewport units, and responsive layouts.</p>
+              </li>
+              <li>
+                <div class="achieve-title">Introduction to Artificial Intelligence Tools</div>
+                <div class="achieve-issuer">AI Foundation Program • 2026</div>
+                <p>Practical training in prompt engineering, AI development suites (Gemini, ChatGPT), and algorithmic logic.</p>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Awards & Honors Card -->
+          <div class="glass-card achievement-card">
+            <div class="card-top">
+              <div class="achievement-icon icon-purple"><i class="fa-solid fa-award"></i></div>
+              <h3>Awards & Honors</h3>
+            </div>
+            <ul class="achievement-list">
+              <li>
+                <div class="achieve-title">High School Academic Distinction Award</div>
+                <div class="achieve-issuer">Narayana EM High School • 2024</div>
+                <p>Graduated with 82% marks, earning recognition for outstanding academic performance and leadership.</p>
+              </li>
+              <li>
+                <div class="achieve-title">Excellence in Web Game Implementation</div>
+                <div class="achieve-issuer">AI & Computing Student Showcase • 2026</div>
+                <p>Honored for solo-engineering the 50-level <em>Bal Ganesh</em> web game with custom Web Audio synthesis.</p>
+              </li>
+              <li>
+                <div class="achieve-title">Intermediate First-Class Standing</div>
+                <div class="achieve-issuer">State Board of Intermediate Education • 2026</div>
+                <p>Achieved 77% aggregate in Mathematics, Physics, and Chemistry discipline.</p>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Participations & Extracurriculars -->
+          <div class="glass-card achievement-card">
+            <div class="card-top">
+              <div class="achievement-icon icon-cyan"><i class="fa-solid fa-users"></i></div>
+              <h3>Participation & Societies</h3>
+            </div>
+            <ul class="achievement-list">
+              <li>
+                <div class="achieve-title">Member, Computational Intelligence Society</div>
+                <div class="achieve-issuer">JOY University • 2026 – Present</div>
+                <p>Active participation in weekly coding seminars, AI workshops, and hackathons.</p>
+              </li>
+              <li>
+                <div class="achieve-title">Participant, National AI & Web Development Bootcamp</div>
+                <div class="achieve-issuer">Tech Learning Initiative • 2026</div>
+                <p>Engaged in hands-on sessions on AI-assisted application architecture and cloud deployment.</p>
+              </li>
+              <li>
+                <div class="achieve-title">Campus Coding Peer-Mentorship Group</div>
+                <div class="achieve-issuer">Department of CSE (AI) • 2026</div>
+                <p>Collaborated with peers to solve algorithmic programming assignments and review project code.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. CONTACT SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-paper-plane"></i> Connect</span>
+          <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+          <p class="section-subtitle">Feel free to reach out for collaborations, academic inquiries, or project discussions</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info -->
+          <div class="glass-card contact-info-card">
+            <h3 class="contact-card-title">Contact Information</h3>
+            <p class="contact-intro">
+              I am always keen to collaborate on artificial intelligence research, innovative web development projects, and software challenges.
+            </p>
+
+            <div class="contact-methods">
+              <div class="contact-method">
+                <div class="method-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="method-details">
+                  <span class="method-label">Email Address</span>
+                  <a href="mailto:shaikrehamanshareef2008@gmail.com" class="method-value">shaikrehamanshareef2008@gmail.com</a>
+                </div>
+              </div>
+
+              <div class="contact-method">
+                <div class="method-icon"><i class="fa-solid fa-phone"></i></div>
+                <div class="method-details">
+                  <span class="method-label">Phone / Mobile</span>
+                  <a href="tel:+919849989380" class="method-value">+91 98499 89380</a>
+                </div>
+              </div>
+
+              <div class="contact-method">
+                <div class="method-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="method-details">
+                  <span class="method-label">Location</span>
+                  <span class="method-value">Tirupati, Andhra Pradesh, India</span>
+                </div>
+              </div>
+
+              <div class="contact-method">
+                <div class="method-icon"><i class="fa-solid fa-university"></i></div>
+                <div class="method-details">
+                  <span class="method-label">Institution</span>
+                  <span class="method-value">School of Computational Intelligence, JOY University</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-box">
+              <h4>Professional Profiles</h4>
+              <div class="social-pill-links">
+                <a href="https://github.com/shaikrehamanshareef" target="_blank" rel="noopener" class="social-pill"><i class="fa-brands fa-github"></i> GitHub</a>
+                <a href="https://linkedin.com/in/shaikrehamanshareef" target="_blank" rel="noopener" class="social-pill"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                <a href="mailto:shaikrehamanshareef2008@gmail.com" class="social-pill"><i class="fa-solid fa-envelope"></i> Email</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="glass-card contact-form-card">
+            <h3 class="contact-card-title">Send a Direct Message</h3>
+            <form id="contact-form" class="contact-form" onsubmit="handleFormSubmit(event)">
+              <div class="form-group">
+                <label for="name">Your Full Name</label>
+                <div class="input-wrapper">
+                  <i class="fa-solid fa-user input-icon"></i>
+                  <input type="text" id="name" name="name" placeholder="e.g. John Doe" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Your Email Address</label>
+                <div class="input-wrapper">
+                  <i class="fa-solid fa-envelope input-icon"></i>
+                  <input type="email" id="email" name="email" placeholder="e.g. john@example.com" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <div class="input-wrapper">
+                  <i class="fa-solid fa-pen-to-square input-icon"></i>
+                  <input type="text" id="subject" name="subject" placeholder="Project Collaboration / Academic Inquiry" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Your Message</label>
+                <div class="input-wrapper textarea-wrapper">
+                  <i class="fa-solid fa-comment-dots input-icon"></i>
+                  <textarea id="message" name="message" rows="4" placeholder="Write your message here..." required></textarea>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-primary submit-btn" id="submit-btn">
+                <i class="fa-solid fa-paper-plane"></i> Send Message
+              </button>
+            </form>
+            <div id="form-feedback" class="form-feedback"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="logo-badge">&lt;SR&gt;</span>
+          <span class="footer-name">Shaik Rehaman Shareef</span>
+          <p>B.Tech CSE (Artificial Intelligence) • School of Computational Intelligence</p>
+        </div>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#achievements">Achievements</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Shaik Rehaman Shareef (Reg No: 2026BTAI076). All rights reserved.</p>
+        <p class="tool-credit">Created with <i class="fa-solid fa-heart" style="color: #ef4444;"></i> using <strong>Google AI Studio / Gemini AI</strong></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button class="back-to-top" id="back-to-top" title="Go to top" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
