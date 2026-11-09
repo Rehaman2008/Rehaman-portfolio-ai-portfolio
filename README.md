@@ -33,19 +33,21 @@ The portfolio is built with modern, accessible, and responsive web technologies 
    - Learning Goals & Long-Term Career Aspirations
 
 3. **Skills (`#skills`):**
-   - **Programming Languages:** Python, JavaScript (ES6+), C, HTML5, CSS3, SQL
-   - **Technical & Web Skills:** Web Development, HTML5 Canvas 2D & Audio API, Git, AI Tools
-   - **Professional Skills:** Problem Solving, Technical Documentation, Team Collaboration
+   - **Python:** Core programming, data types, string indexing & slicing, functions, and logic
+   - **HTML and CSS:** Semantic HTML5, modern CSS3, responsive Flexbox and Grid layouts
+   - **IoT & Hardware Interfacing:** Sensor integration (PIR motion, ultrasonic), microcontrollers, smart automation
+   - **Generative AI & AI Tools:** Prompt engineering, workflow automation with LLMs, AI content pipelines
+   - **Problem Solving:** Algorithmic thinking, logical reasoning, structured debugging
 
 4. **Projects (`#projects`):**
-   - **Project 1:** *Bal Ganesh: Modak Catcher & Mooshak's Maya Leela* (2D 50-Level Canvas Arcade Game with Web Audio API)
-   - **Project 2:** *AI Python Concept Explainer & Visualizer* (Interactive CLI Educational Tool)
-   - **Project 3:** *Web Star Academic Resource Hub* (Responsive Examination Revision Portal)
+   - **Project 1:** *IoT Intruder Detector* (Smart embedded hardware sensor security system)
+   - **Project 2:** *Automated LinkedIn Post Workflow with AI Tools* (AI-powered content pipeline)
+   - **Project 3:** *AI News Summarizer* (Gen AI-driven automated technology news digest)
+   - **Project 4:** *Automated Weather Report to Gmail via AI Tools* (Live meteorological AI briefing dispatched to Gmail)
 
 5. **Achievements (`#achievements`):**
-   - Academic & Technical Certifications
-   - Honors & High School Distinctions
-   - Computational Intelligence Society Memberships & Hackathon Participation
+   - Technical Certifications: Python, Web App Dev, AI Tools (Currently in practice)
+   - Academic Qualifications: Class X (82%) and Intermediate / 10+2 (77%)
 
 6. **Contact (`#contact`):**
    - Verified Contact Information & Location
